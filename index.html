@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #ddd;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .menu {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px
+        }
+
+        .menu ul {
+            list-style-type: none;
+        }
+
+        .menu ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .header {
+            background-color: rgb(40, 93, 173);
+            padding: 40px;
+            color: white;
+            text-align: center;
+        }
+
+        .content {
+            background-color: white;
+            min-height: 200px;
+            max-width: 800px;
+            margin: 30px auto;
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        .colors {
+            display: flex;
+            gap: 20px;
+        }
+
+        .rgb {
+            background-color: orange;
+            height: 80px;
+            width: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+
+        }
+
+        .hex {
+            background-color: aqua;
+            height: 80px;
+            width: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #000;
+
+
+
+
+        }
+
+        .çerçeve {
+            background-color: white;
+            border-radius: 20px;
+            height: 80px;
+            width: 80px;
+            border-color: black;
+            border: 1px solid black;
+            padding: 40px;
+
+
+
+
+
+
+        }
+
+        .margin {
+            background-color: yellow;
+            padding: 5px;
+            margin: 20px;
+
+        }
+
+        .padding {
+            background-color: green;
+            padding: 16px;
+
+
+        }
+
+        .paragraf {
+            color: red;
+            font-size: 20px;
+
+        }
+
+        .link {
+            color: yellow;
+        }
+
+        .link:hover {
+            color: blue;
+            font-size: 30px;
+        }
+
+        .link:active {
+            color: red;
+            font-size: 100px;
+        }
+
+        .liste {
+            list-style-type: square;
+        }
+
+        .tablo {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #dadada;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .tablo tr:nth-child(even) {
+            background-color: rgb(214, 208, 208);
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+
+<body>
+
+
+
+    <div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Anasayfa</a></li>
+                <li><a href="#">Hakkında</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </div>
+        <div class="header">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quod sapiente qui voluptatum ab, assumenda
+            quidem saepe nobis nostrum laudantium, beatae voluptatem sint error velit mollitia accusamus quas sunt
+            fugit!
+        </div>
+    </div>
+
+
+
+    <div>
+        <div class="content">
+
+            <h2>Renk ve arka plan</h2>
+            <div class="colors">
+                <div class="rgb">rgb</div>
+                <div class="hex">hex</div>
+            </div>
+
+
+        </div>
+        <div class="content">
+            <h2>Çerçeve ve Content </h2>
+
+            <div class="çerçeve">Çerçeve ve Radius</div>
+
+
+
+
+
+
+
+        </div>
+        <div class="content">
+            <h2>Margin ve Padding Örnekleri</h2>
+
+            <div class="margin">Margin örneği</div>
+            <div>
+                <div class="padding">Padding örneği</div>
+            </div>
+
+
+        </div>
+        <div class="content">
+            <h2>Metin ve Font Özellikleri--</h2>
+            <p class="paragraf">Bu bir metin örneğidir.</p>
+
+
+        </div>
+        <div class="content">
+            <h2>Link Özellikleri</h2>
+            <a href="google.com" target="_blank" class="link">Hover ve actıve lınk</a>
+
+
+        </div>
+        <div class="content">
+            <h2>Liste Özellikleri</h2>
+            <ul class="liste">
+                <li>Öğe 1</li>
+                <li>Öğe 2</li>
+                <li>Öğe 3</li>
+            </ul>
+        </div>
+        <div class="content">
+            <h2>Tablo Özellikleri</h2>
+            <table class="tablo" border="1">
+                <thead>
+                    <tr>
+                        <th>Başlık 1</th>
+                        <th>Başlık 2</th>
+                        <th>Başlık 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Veri 1</td>
+                        <td>Veri 2</td>
+                        <td>Veri 3</td>
+                    </tr>
+                    <tr>
+                        <td>Veri 4</td>
+                        <td>Veri 5</td>
+                        <td>Veri 6</td>
+                    </tr>
+                    <tr>
+                        <td>Veri 4</td>
+                        <td>Veri 5</td>
+                        <td>Veri 6</td>
+                    </tr>
+                    <tr>
+                        <td>Veri 4</td>
+                        <td>Veri 5</td>
+                        <td>Veri 6</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+
+
+
+        </div>
+
+    </div>
+
+    <footer>
+        Copyright 2024 Gözde Aksal
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
